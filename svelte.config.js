@@ -1,5 +1,5 @@
 /**@type {import('@sveltejs/kit').Config}*/
-import adapter from "@sveltejs/adapter-netlify";
+import adapter from "@sveltejs/adapter-vercel";
 import { vitePreprocess } from "@sveltejs/kit/vite";
 import dotenv from "dotenv";
 
